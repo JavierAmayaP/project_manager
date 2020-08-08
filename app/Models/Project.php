@@ -12,7 +12,7 @@ class Project extends Model
     // protected $incrementing = 'false';  ->Se utiliza para controllar el autoincremento de la llave primaria.
 
     // deactivate timestamps
-    protected $timestamps = false;
+    public $timestamps = false;
 
     // personalize timestamps
     // const CREATED_AT = 'creation_date';

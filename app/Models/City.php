@@ -11,7 +11,7 @@ class City extends Model
     protected $primaryKey = 'id';
 
     // deactivate timestamps
-    protected $timestamps = false;
+    public $timestamps = false;
 
     // personalize timestamps
     // const CREATED_AT = 'creation_date';

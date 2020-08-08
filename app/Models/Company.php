@@ -11,7 +11,7 @@ class Company extends Model
     protected $primaryKey = 'id';
 
     // deacitvate timestamps
-    protected $timestamps = false;
+    public $timestamps = false;
 
     // personalize timestamps
     // const CREATED_AT = 'creation_date';

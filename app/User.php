@@ -41,5 +41,5 @@ class User extends Authenticatable
     ];
 
     // deactivate timestamps
-    protected $timestamps = false;
+    public $timestamps = false;
 }
