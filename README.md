@@ -1,3 +1,31 @@
+# Dashboard de Proyectos 📋
+> Proyecto realizado durante el Curso Básico de Manejo de Datos en Laravel con Eloquent ORM. 2020-08-11 23:18:12 Tuesday.
+
+### 🧠 Conocimientos adquiridos durante en el curso. ✍
+- Aprendizaje conceptual de un **ORM** y el papel de **Eloquent en Laravel.**
+- **Creación de un proyecto de Laravel** usando **composer** y conectando con una base de datos en **MySQL**.
+- Consultar **Conexión con la base** de datos mediante la consola **Tinker**.
+- Creación de **modelos** y **controladores** mediante la **terminal de comandos**.
+- Diferenciar un modelo de una migración.
+- **Atributos por defecto** en un modelo.
+- Estructura de modelos, **rutas** y controladores para consultar datos.
+- **Chunk**, Para la fragmentación de múltiples registros.
+- Estructura de **funciones CRUD** para consultar datos.
+
+### 📌Aportes Individuales aplicados al proyecto ✅ 
+1. Creación de mi primer base de datos usando solo  **Migraciones de Laravel** .
+
+1. `php artisan tinker ` -> Uso básico de la terminal **Tinker** .
+2. Configurar **conexión a consola de Mysql usando CMD** aplicando los siguientes comandos.
+	- `show databases;` -> Muestra todas las bases de datos.
+	- `use nombreBaseDeDatos;` -> Indica a MySQL que base de datos usar para operar sobre ella.
+	- `show tables;` ->Muestras las tablas de la base de datos en uso.
+	* `insert into users(name) values ('Javier Amaya);` ->Uso del comando insert into para alimentar las tablas de los proyectos.
+	
+3. Uso de **helper Str::plural('user) y Str::singular('users)  Str::snake(personalInformations)** desde la terminal de **Tinker** para obtener la pluralización correcta del nombre de las tablas aplicando el formato que usa Laravel.
+
+
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
